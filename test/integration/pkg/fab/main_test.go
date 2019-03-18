@@ -8,9 +8,9 @@ package fab
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
-	"github.com/hyperledger/fabric-sdk-go/test/integration/util/runner"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk"
+	"github.com/thanakritlee/fabric-sdk-go/test/integration"
+	"github.com/thanakritlee/fabric-sdk-go/test/integration/util/runner"
 )
 
 var mainSDK *fabsdk.FabricSDK

@@ -9,12 +9,12 @@ package msppvdr
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/factory/defcore"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 )
 

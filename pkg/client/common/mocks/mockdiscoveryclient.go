@@ -10,12 +10,12 @@ import (
 	reqcontext "context"
 	"sync"
 
-	discclient "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	fabdiscovery "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery"
-	discmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery/mocks"
+	discclient "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/protos/discovery"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/protos/gossip"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	fabdiscovery "github.com/thanakritlee/fabric-sdk-go/pkg/fab/discovery"
+	discmocks "github.com/thanakritlee/fabric-sdk-go/pkg/fab/discovery/mocks"
 )
 
 // MockDiscoveryClient implements a mock Discover service

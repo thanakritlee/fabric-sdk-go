@@ -11,7 +11,7 @@ LINT_CHANGED_ONLY="${LINT_CHANGED_ONLY:-false}"
 GO_CMD="${GO_CMD:-go}"
 SCRIPT_DIR="$(dirname "$0")"
 
-REPO="github.com/hyperledger/fabric-sdk-go"
+REPO="github.com/thanakritlee/fabric-sdk-go"
 
 echo "Running" $(basename "$0")
 

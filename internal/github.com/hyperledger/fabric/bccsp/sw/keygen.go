@@ -27,7 +27,7 @@ import (
 	"crypto/rsa"
 	"fmt"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 type ecdsaKeyGenerator struct {

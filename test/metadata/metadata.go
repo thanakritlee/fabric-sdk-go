@@ -14,7 +14,7 @@ var ChannelConfigPath = "test/fixtures/fabric/v1.4/channel"
 var CryptoConfigPath = "test/fixtures/fabric/v1/crypto-config"
 
 // Project is the Go project name relative to the Go Path
-var Project = "github.com/hyperledger/fabric-sdk-go"
+var Project = "github.com/thanakritlee/fabric-sdk-go"
 
 // TestRunID is an identifier for the current run of tests
 var TestRunID = ""

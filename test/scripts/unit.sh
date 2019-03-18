@@ -26,7 +26,7 @@ TEST_RACE_CONDITIONS="${TEST_RACE_CONDITIONS:-true}"
 TEST_WITH_LINTER="${TEST_WITH_LINTER:-false}"
 SCRIPT_DIR="$(dirname "$0")"
 
-REPO="github.com/hyperledger/fabric-sdk-go"
+REPO="github.com/thanakritlee/fabric-sdk-go"
 
 source ${SCRIPT_DIR}/lib/find_packages.sh
 source ${SCRIPT_DIR}/lib/linter.sh
@@ -90,9 +90,9 @@ echo "Code level ${FABRIC_SDKGO_CODELEVEL_TAG} (Fabric ${FABRIC_SDKGO_CODELEVEL_
 echo "Running unit tests..."
 GO_TAGS="${GO_TAGS} ${FABRIC_SDKGO_CODELEVEL_TAG}"
 
-GO_LDFLAGS="${GO_LDFLAGS} -X github.com/hyperledger/fabric-sdk-go/test/metadata.ChannelConfigPath=test/fixtures/fabric/${FABRIC_SDKGO_CODELEVEL_VER}/channel"
-GO_LDFLAGS="${GO_LDFLAGS} -X github.com/hyperledger/fabric-sdk-go/test/metadata.CryptoConfigPath=test/fixtures/fabric/${FABRIC_CRYPTOCONFIG_VERSION}/crypto-config"
-GO_LDFLAGS="${GO_LDFLAGS} -X github.com/hyperledger/fabric-sdk-go/test/metadata.TestRunID=${FABRIC_SDKGO_TESTRUN_ID}"
+GO_LDFLAGS="${GO_LDFLAGS} -X github.com/thanakritlee/fabric-sdk-go/test/metadata.ChannelConfigPath=test/fixtures/fabric/${FABRIC_SDKGO_CODELEVEL_VER}/channel"
+GO_LDFLAGS="${GO_LDFLAGS} -X github.com/thanakritlee/fabric-sdk-go/test/metadata.CryptoConfigPath=test/fixtures/fabric/${FABRIC_CRYPTOCONFIG_VERSION}/crypto-config"
+GO_LDFLAGS="${GO_LDFLAGS} -X github.com/thanakritlee/fabric-sdk-go/test/metadata.TestRunID=${FABRIC_SDKGO_TESTRUN_ID}"
 ${GO_CMD} test ${RACEFLAG} -cover -tags "testing ${GO_TAGS}" ${GO_TESTFLAGS} -ldflags="${GO_LDFLAGS}" ${PKGS[@]} -p 1 -timeout=40m
 
 echo "Unit tests finished successfully"

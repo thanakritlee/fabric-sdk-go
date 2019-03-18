@@ -1,8 +1,8 @@
 # Hyperledger Fabric Client SDK for Go
 
 [![Build Status](https://jenkins.hyperledger.org/buildStatus/icon?job=fabric-sdk-go-tests-merge-x86_64)](https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric-sdk-go)](https://goreportcard.com/report/github.com/hyperledger/fabric-sdk-go)
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric-sdk-go?status.svg)](https://godoc.org/github.com/hyperledger/fabric-sdk-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thanakritlee/fabric-sdk-go)](https://goreportcard.com/report/github.com/thanakritlee/fabric-sdk-go)
+[![GoDoc](https://godoc.org/github.com/thanakritlee/fabric-sdk-go?status.svg)](https://godoc.org/github.com/thanakritlee/fabric-sdk-go)
 
 This SDK enables Go developers to build solutions that interact with [Hyperledger Fabric](http://hyperledger-fabric.readthedocs.io/en/latest/).
 
@@ -11,10 +11,10 @@ This SDK enables Go developers to build solutions that interact with [Hyperledge
 Obtain the client SDK packages for Fabric and Fabric CA.
 
 ```bash
-go get -u github.com/hyperledger/fabric-sdk-go
+go get -u github.com/thanakritlee/fabric-sdk-go
 
 # Optional - populate vendor directory (if needed by your downstream vendoring solution)
-# cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+# cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go/
 # make populate
 ```
 
@@ -65,7 +65,7 @@ Once v1.3 is retired, the above client code logic will need to be removed as wel
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go/
 
 # Optional - Automatically install Go tools used by test suite
 # make depend
@@ -103,7 +103,7 @@ To contribute patches, you will need to clone (or add a remote) from [Gerrit](ht
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go/
 
 # Optional - Automatically install Go tools used by test suite
 # make depend
@@ -139,7 +139,7 @@ The following commands starts Fabric:
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go/
 
 # Start fabric (stable tag)
 make dockerenv-stable-up
@@ -154,7 +154,7 @@ Fabric should now be running. In a different shell, run integration tests
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go
+cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go
 
 # Use script to setup parameters for integration tests and execute them
 # Previously we use to have hostnames like Fabric CA server, orderer and peer pointed to localhost
@@ -172,10 +172,10 @@ make integration-tests-local
 # Now since we removed this now, We will be using a different config file config_test_local.yaml
 # which has the Fabric CA server, orderer and peers pointed to localhost
 # It is also possible to run integration tests using go test directly. For example:
-#cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/integration/
+#cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go/test/integration/
 #go test -args testLocal=true
 
-#cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/integration/orgs
+#cd $GOPATH/src/github.com/thanakritlee/fabric-sdk-go/test/integration/orgs
 #go test -args testLocal=true 
 
 # You should review test/scripts/integration.sh for options and details.

@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package balanced
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/lbp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/peerresolver"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/events/client/lbp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/events/client/peerresolver"
 )
 
 type params struct {

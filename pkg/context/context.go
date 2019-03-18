@@ -13,11 +13,11 @@ import (
 
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/metrics"
 )
 
 // Client supplies the configuration and signing identity to client objects.

@@ -20,25 +20,25 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
-	mspclient "github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	contextApi "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/client/channel"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
+	mspclient "github.com/thanakritlee/fabric-sdk-go/pkg/client/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/client/resmgmt"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/options"
+	contextApi "github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/mocks"
+	fabImpl "github.com/thanakritlee/fabric-sdk-go/pkg/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/thanakritlee/fabric-sdk-go/test/integration"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -511,9 +511,9 @@ client:
     # [Optional]. Client key and cert for TLS handshake with peers and orderers
     client:
       key:
-        path: "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/${CRYPTOCONFIG_FIXTURES_PATH}/peerOrganizations/tls.example.com/users/User1@tls.example.com/tls/client.key"
+        path: "${GOPATH}/src/github.com/thanakritlee/fabric-sdk-go/${CRYPTOCONFIG_FIXTURES_PATH}/peerOrganizations/tls.example.com/users/User1@tls.example.com/tls/client.key"
       cert:
-        path: "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/${CRYPTOCONFIG_FIXTURES_PATH}/peerOrganizations/tls.example.com/users/User1@tls.example.com/tls/client.crt"
+        path: "${GOPATH}/src/github.com/thanakritlee/fabric-sdk-go/${CRYPTOCONFIG_FIXTURES_PATH}/peerOrganizations/tls.example.com/users/User1@tls.example.com/tls/client.crt"
 `
 
 // DynDiscoveryProviderFactory is configured with dynamic (endorser) selection provider

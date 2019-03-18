@@ -14,10 +14,10 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/common/privdata"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/ledger"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/common/privdata"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/ledger"
+	flogging "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	pb "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 var ccproviderLogger = flogging.MustGetLogger("ccprovider")

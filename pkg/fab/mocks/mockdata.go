@@ -12,17 +12,17 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	cutil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
-	ab "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/orderer"
-	pp "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/utils"
+	cutil "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	mb "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
+	ab "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/orderer"
+	pp "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/utils"
 
 	"time"
 
-	channelConfig "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/channelconfig"
-	ledger_util "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/ledger/util"
+	channelConfig "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/channelconfig"
+	ledger_util "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/ledger/util"
 	"github.com/pkg/errors"
 )
 

@@ -15,12 +15,12 @@ import (
 
 	"encoding/pem"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/core"
+	fabImpl "github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

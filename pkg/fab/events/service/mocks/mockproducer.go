@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/test"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/util/test"
+	pb "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // Ledger is a MockLedger

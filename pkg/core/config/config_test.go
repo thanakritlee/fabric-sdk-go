@@ -11,10 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/test"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/logging"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/util/test"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"

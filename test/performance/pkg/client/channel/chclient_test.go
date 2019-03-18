@@ -12,18 +12,18 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/client/channel"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/thanakritlee/fabric-sdk-go/pkg/context"
+	fcmocks "github.com/thanakritlee/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/util/pathvar"
 
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
+	pb "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/testdata"
@@ -31,11 +31,11 @@ import (
 
 const (
 	channelID         = "myChannel"
-	peerTLSServerCert = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt"
-	peerTLSServerKey  = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key"
+	peerTLSServerCert = "${GOPATH}/src/github.com/thanakritlee/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt"
+	peerTLSServerKey  = "${GOPATH}/src/github.com/thanakritlee/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key"
 
-	ordererTLSServerCert = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.crt"
-	ordererTLSServerKey  = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.key"
+	ordererTLSServerCert = "${GOPATH}/src/github.com/thanakritlee/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.crt"
+	ordererTLSServerKey  = "${GOPATH}/src/github.com/thanakritlee/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.key"
 
 	testhost          = "peer0.org1.example.com"
 	testport          = 7051

@@ -16,16 +16,16 @@ import (
 	"crypto/x509"
 	"encoding/hex"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/core"
 
 	"encoding/pem"
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	bccsp "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	logging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
+	bccsp "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	flogging "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	logging "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
 )
 

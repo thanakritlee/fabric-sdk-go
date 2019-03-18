@@ -8,7 +8,7 @@
 set -e
 
 GOPATH="${GOPATH:-$HOME/go}"
-REPO="github.com/hyperledger/fabric-sdk-go"
+REPO="github.com/thanakritlee/fabric-sdk-go"
 
 PWD_ORIG=$(pwd)
 # need org in lowercase

@@ -11,15 +11,15 @@ package fabsdk
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	mockCore "github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/client/channel"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config/lookup"
+	mockCore "github.com/thanakritlee/fabric-sdk-go/pkg/core/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/msp"
 	"github.com/pkg/errors"
 )
 

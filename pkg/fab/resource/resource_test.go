@@ -14,17 +14,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/errors/retry"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/thanakritlee/fabric-sdk-go/pkg/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/peer"
+	mspmocks "github.com/thanakritlee/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/thanakritlee/fabric-sdk-go/test/metadata"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

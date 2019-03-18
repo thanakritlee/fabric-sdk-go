@@ -20,10 +20,10 @@ import (
 
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	mspctx "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	mspapi "github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	mspctx "github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/msp"
+	mspapi "github.com/thanakritlee/fabric-sdk-go/pkg/msp/api"
 	"github.com/pkg/errors"
 )
 

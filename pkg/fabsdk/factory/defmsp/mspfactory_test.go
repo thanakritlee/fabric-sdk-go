@@ -12,14 +12,14 @@ import (
 	"reflect"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	cryptosuiteImpl "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	mspimpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/test/mockmsp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config"
+	cryptosuiteImpl "github.com/thanakritlee/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fabsdk/factory/defcore"
+	mspimpl "github.com/thanakritlee/fabric-sdk-go/pkg/msp"
 	"github.com/stretchr/testify/assert"
 )
 

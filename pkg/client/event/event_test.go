@@ -10,21 +10,21 @@ import (
 	"testing"
 	"time"
 
-	txnmocks "github.com/hyperledger/fabric-sdk-go/pkg/client/common/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	txnmocks "github.com/thanakritlee/fabric-sdk-go/pkg/client/common/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/options"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/thanakritlee/fabric-sdk-go/pkg/context"
+	fcmocks "github.com/thanakritlee/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/thanakritlee/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
-	servicemocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/mocks"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/events/service"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/events/service/dispatcher"
+	servicemocks "github.com/thanakritlee/fabric-sdk-go/pkg/fab/events/service/mocks"
+	pb "github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 var (

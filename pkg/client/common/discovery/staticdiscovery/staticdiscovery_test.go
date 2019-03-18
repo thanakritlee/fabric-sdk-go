@@ -9,10 +9,10 @@ package staticdiscovery
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/core/config"
+	fabImpl "github.com/thanakritlee/fabric-sdk-go/pkg/fab"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/thanakritlee/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 )
 

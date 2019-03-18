@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"sync"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	factory "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
 )
 
 // MemoizeSigner signs messages with the same signature

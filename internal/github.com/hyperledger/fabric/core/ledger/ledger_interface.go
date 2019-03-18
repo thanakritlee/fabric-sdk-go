@@ -14,12 +14,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	commonledger "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/ledger"
+	"github.com/thanakritlee/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/thanakritlee/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // Initializer encapsulates dependencies for PeerLedgerProvider
